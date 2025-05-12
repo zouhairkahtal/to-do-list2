@@ -19,7 +19,7 @@ function App() {
   return (
     <div className="w-full h-screen flex justify-center items-center flex-col bg-slate-800">
       <div className=" bg-blue-200 p-5 rounded-md ">
-        <div className="text-gray-600 text-lg font-bold w-96 flex justify-between pb-5">
+        <div className="text-gray-600 text-lg font-bold w-[600px] flex justify-between pb-5">
           <h1 className="text-center">To Do List</h1>
 
           <button onClick={addNewTask} >add</button>
@@ -35,14 +35,14 @@ function App() {
             }}
             onChange={(e) => setAddask(e.target.value)}
             type="text"
-            className="w-96 h-10 border-solid border-2 border-sky-500 pl-2 mb-2 rounded-lg"
-            maxLength={46}
+            className="w-[600px] h-10 border-solid border-2 border-sky-500 pl-2 mb-2 rounded-lg"
+            maxLength={75}
           ></input>
         </div>
         <div>
           <ul className="mb-5">
             {task.map((task, index) => (
-              <li className="flex justify-between items-center w-96 mb-2" key={index}>
+              <li className="flex justify-between items-center w-[600px] mb-2" key={index}>
                 <div className=" text-blue-900 ">
 
                 <span className="mr-2">{index+1+"."}</span>{task}
