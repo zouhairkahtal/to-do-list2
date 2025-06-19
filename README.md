@@ -8,7 +8,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 A minimalist and clean to-do list application built using **React** and **Tailwind CSS**. Users can add, track, and clear tasks in a simple, dark-themed UI.
 
-![App Preview](./Screenshot%202025-06-19%20155847.png)
+
 
 ---
 
@@ -18,8 +18,7 @@ A minimalist and clean to-do list application built using **React** and **Tailwi
 - Display total number of tasks
 - Clear all tasks with one click
 - Beautiful dark mode UI
-- Fully responsive layout
-- Smooth UX and minimal design
+- Fully responsive layout ❎
 
 ---
 
